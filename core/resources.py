@@ -5,11 +5,14 @@ RESOURCE_DIR = Path('resources')
 with open(RESOURCE_DIR / 'ingredients.json', 'r') as f:
     all_ingredients = json.load(f)
 
-with open(RESOURCE_DIR / 'potions.json', 'r') as f:
+with open(RESOURCE_DIR / 'potions.json', 'r', encoding='utf8') as f:
     all_potions = json.load(f)
 
-with open(RESOURCE_DIR / 'cauldrons.json', 'r') as f:
+with open(RESOURCE_DIR / 'cauldrons.json', 'r', encoding='utf8') as f:
     all_cauldrons = json.load(f)
+
+with open(RESOURCE_DIR / 'events.json', 'r', encoding='utf8') as f:
+    all_events = json.load(f)
 
 def get_ingredient_metadata(key: str) -> dict:
     """
@@ -57,4 +60,21 @@ def get_cauldron_metadata(key: str) -> dict:
         "name": cauldron["name"],
         "localization_key": cauldron["secondary_key"],
         "levels": cauldron["levels"]
+    }
+
+def get_event_metadata(key: str) -> dict:
+    """
+    This function retrieves information about events that are not stored as part of
+    the save data.
+
+    :param key: The internal key used for this item.
+    :return:
+    """
+    event = all_events[key]
+    return {
+        "name": event["Name"]["LocalizedString"],
+        "localization_key": event["Name"]["Key"],
+        "duration": event["Duration"],
+        "random_weight": event["RandomWeight"],
+        "outcomes": event["Outcomes"]
     }
