@@ -5,6 +5,17 @@ meta:
 seq:
   - id: world
     type: world_state
+  - id: gold
+    type: s4
+  # May be some weirdness with TEnumAsByte here? This may indicate the tutorial stage
+  - type: u4
+  # Not terribly confident - needs to be confirmed
+  - id: number_of_potions_brewed
+    type: s4
+  - id: stress
+    type: s4
+  - id: active_chapter
+    type: u4
   - id: len_ingredients
     type: u4
   - id: ingredients
@@ -250,17 +261,6 @@ types:
       - id: weather
         type: u1
         enum: weather
-      - id: gold
-        type: s4
-      # May be some weirdness with TEnumAsByte here? This may indicate the tutorial stage
-      - type: u4
-      # Not terribly confident - needs to be confirmed
-      - id: number_of_potions_brewed
-        type: s4
-      - id: stress
-        type: s4
-      - id: active_chapter
-        type: u4
   loc_table:
     seq:
       - type: u4
@@ -398,19 +398,8 @@ types:
     seq:
       - id: name
         type: str_with_len
-      - id: day_occurred
-        type: s4
-      - id: time_segment
-        type: s4
-      - id: time_of_day
-        type: u1
-        enum: time_of_day
-      - id: location
-        type: u1
-        enum: location
-      - id: weather
-        type: u1
-        enum: weather
+      - id: world_state
+        type: world_state
   progress_flag:
     seq:
       - id: name
