@@ -1,0 +1,34 @@
+# SaveSlot9 Reference
+
+This save slot has:
+- No items in vending machine
+- One love
+- Classic difficulty
+- Made before masterwork edition released (no boss finn shop)
+- Day 43
+- Early morning
+- 0% stress
+- 14587 gold
+- All potion recipes unlocked
+- Three events: You're Getting Very Sleepy, Dungeons sans Dragons, Robin's Guild Tithe
+- Only red slime bulb unlocked containing 3 swamp octopus ready to collect
+- No custom orders
+- 5 hearts with owl
+- 8 hearts with quinn (both coupons)
+- 7 hearts with muktuk
+- 7 hearts with saffron
+- 6 hearts with luna
+- 10 hearts with roxanne + romance
+- 7 hearts with Salt N Pepper
+- 8 hearts with Baptiste
+- 8 hearts with Mint
+- 5 hearts with Corsac (rank up available)
+- 7 hearts with Xid (rank up available)
+- Magical Waste Blightroach, Magical Wasteland Cyclops Skull, Magical Wasteland Mass Grave Enoki in Baptiste shop
+- No one on adventures
+- No hangouts done
+- No treasure purchased
+- Level 2 bone wastes shelf (with one 1* grand insight enhancer in the 2nd slot), level 1 crystalline forest shelf, makeshift shelf on screen
+- Mushroom mire showcase, standard showcase (with 1* grand stamina potion on it)
+- Stable masterwork health potion with 749 magimins and 0* ready to be picked up from an unupgraded crater cauldron
+- Unstable minor fire tonic with 32 magimins in an unupgraded arctic cauldron
