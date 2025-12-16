@@ -1,0 +1,248 @@
+{
+    "Cauldron01": {
+        "secondary_key": "Cauldron_001",
+        "name": "Wooden Cauldron",
+        "levels": [
+            {
+                "max_ingredients": 4,
+                "max_magimins": 75
+            }
+        ]
+    },
+    "Cauldron03": {
+        "secondary_key": "Cauldron_014",
+        "name": "Clay Cauldron",
+        "levels": [
+            {
+                "max_ingredients": 6,
+                "max_magimins": 115
+            }
+        ]
+    },
+    "Cauldron04": {
+        "secondary_key": "Cauldron_002",
+        "name": "Mudpack Cauldron",
+        "levels": [
+            {
+                "max_ingredients": 6,
+                "max_magimins": 160
+            },
+            {
+                "max_ingredients": 6,
+                "max_magimins": 180
+            },
+            {
+                "max_ingredients": 7,
+                "max_magimins": 225
+            }
+        ]
+    },
+    "Cauldron07": {
+        "secondary_key": "Cauldron_003",
+        "name": "Glass Cauldron",
+        "levels": [
+            {
+                "max_ingredients": 7,
+                "max_magimins": 140
+            },
+            {
+                "max_ingredients": 7,
+                "max_magimins": 170
+            },
+            {
+                "max_ingredients": 8,
+                "max_magimins": 200
+            }
+        ]
+    },
+    "Cauldron19": {
+        "secondary_key": "Cauldron_006",
+        "name": "Shadow Cauldron",
+        "levels": [
+            {
+                "max_ingredients": 7,
+                "max_magimins": 255
+            },
+            {
+                "max_ingredients": 7,
+                "max_magimins": 295
+            },
+            {
+                "max_ingredients": 7,
+                "max_magimins": 345
+            }
+        ]
+    },
+    "Cauldron16": {
+        "secondary_key": "Cauldron_005",
+        "name": "Ocean Cauldron",
+        "levels": [
+            {
+                "max_ingredients": 8,
+                "max_magimins": 240
+            },
+            {
+                "max_ingredients": 8,
+                "max_magimins": 275
+            },
+            {
+                "max_ingredients": 8,
+                "max_magimins": 320
+            }
+        ]
+    },
+    "Cauldron25": {
+        "secondary_key": "Cauldron_004",
+        "name": "Storm Cauldron",
+        "levels": [
+            {
+                "max_ingredients": 7,
+                "max_magimins": 240
+            },
+            {
+                "max_ingredients": 8,
+                "max_magimins": 295
+            },
+            {
+                "max_ingredients": 9,
+                "max_magimins": 375
+            }
+        ]
+    },
+    "Cauldron13": {
+        "secondary_key": "Cauldron_008",
+        "name": "Steel Cauldron",
+        "levels": [
+            {
+                "max_ingredients": 8,
+                "max_magimins": 420
+            },
+            {
+                "max_ingredients": 8,
+                "max_magimins": 480
+            },
+            {
+                "max_ingredients": 8,
+                "max_magimins": 540
+            }
+        ]
+    },
+    "Cauldron22": {
+        "secondary_key": "Cauldron_009",
+        "name": "Celestial Cauldron",
+        "levels": [
+            {
+                "max_ingredients": 9,
+                "max_magimins": 405
+            },
+            {
+                "max_ingredients": 9,
+                "max_magimins": 465
+            },
+            {
+                "max_ingredients": 9,
+                "max_magimins": 505
+            }
+        ]
+    },
+    "Cauldron10": {
+        "secondary_key": "Cauldron_007",
+        "name": "Crystal Cauldron",
+        "levels": [
+            {
+                "max_ingredients": 8,
+                "max_magimins": 405
+            },
+            {
+                "max_ingredients": 9,
+                "max_magimins": 480
+            },
+            {
+                "max_ingredients": 10,
+                "max_magimins": 575
+            }
+        ]
+    },
+    "Cauldron31": {
+        "secondary_key": "Cauldron_011",
+        "name": "Crater Cauldron",
+        "levels": [
+            {
+                "max_ingredients": 10,
+                "max_magimins": 675
+            },
+            {
+                "max_ingredients": 10,
+                "max_magimins": 790
+            },
+            {
+                "max_ingredients": 10,
+                "max_magimins": 940
+            }
+        ]
+    },
+    "Cauldron34": {
+        "secondary_key": "Cauldron_012",
+        "name": "Dragon Cauldron",
+        "levels": [
+            {
+                "max_ingredients": 11,
+                "max_magimins": 640
+            },
+            {
+                "max_ingredients": 11,
+                "max_magimins": 750
+            },
+            {
+                "max_ingredients": 11,
+                "max_magimins": 860
+            }
+        ]
+    },
+    "Cauldron28": {
+        "secondary_key": "Cauldron_010",
+        "name": "Arctic Cauldron",
+        "levels": [
+            {
+                "max_ingredients": 10,
+                "max_magimins": 640
+            },
+            {
+                "max_ingredients": 11,
+                "max_magimins": 785
+            },
+            {
+                "max_ingredients": 12,
+                "max_magimins": 975
+            }
+        ]
+    },
+    "Cauldron37": {
+        "secondary_key": "Cauldron_013",
+        "name": "Magical Wasteland Cauldron",
+        "levels": [
+            {
+                "max_ingredients": 13,
+                "max_magimins": 900
+            },
+            {
+                "max_ingredients": 13,
+                "max_magimins": 1150
+            },
+            {
+                "max_ingredients": 14,
+                "max_magimins": 2000
+            }
+        ]
+    },
+    "PAXEastDemo": {
+        "secondary_key": "Cauldron_001",
+        "name": "Wooden Cauldron",
+        "levels": [
+            {
+                "max_ingredients": 6,
+                "max_magimins": 150
+            }
+        ]
+    }
+}
