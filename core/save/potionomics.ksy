@@ -107,11 +107,14 @@ seq:
     type: hero
     repeat: expr
     repeat-expr: len_heroes
-  - id: len_mystery
+  - id: len_daily_stats
     type: u4
-  - size: 16
+  - id: daily_stats
+    type: daily_stats
     repeat: expr
-    repeat-expr: len_mystery
+    repeat-expr: len_daily_stats
+  # Not totally sure what this is, but given placement it is likely three int32s
+  # for shop front level, shop back level, and shop basement level
   - size: 12
   - id: len_active_cauldrons
     type: u4
@@ -147,6 +150,7 @@ seq:
     type: str_with_len
     repeat: expr
     repeat-expr: 4
+  # Around this area there are also booleans for BoughtMarketingPlan, int32 for enchantmentpurchasedate, and bought saltnpepper treasure
   - size: 4
   - id: len_friends
     type: u4
@@ -248,7 +252,13 @@ types:
         enum: weather
       - id: gold
         type: s4
-      - size: 12
+      # May be some weirdness with TEnumAsByte here? This may indicate the tutorial stage
+      - type: u4
+      # Not terribly confident - needs to be confirmed
+      - id: number_of_potions_brewed
+        type: s4
+      - id: stress
+        type: s4
       - id: active_chapter
         type: u4
   loc_table:
@@ -388,12 +398,19 @@ types:
     seq:
       - id: name
         type: str_with_len
-      - id: id
+      - id: day_occurred
         type: s4
-      - size: 4
-      - id: value
+      - id: time_segment
+        type: s4
+      - id: time_of_day
         type: u1
-      - size: 2
+        enum: time_of_day
+      - id: location
+        type: u1
+        enum: location
+      - id: weather
+        type: u1
+        enum: weather
   progress_flag:
     seq:
       - id: name
@@ -619,6 +636,16 @@ types:
         type: s4
       - id: traits
         type: traits
+  daily_stats:
+    seq:
+      - id: number_of_customers
+        type: s4
+      - id: potions_sold
+        type: s4
+      - id: gold_spent
+        type: s4
+      - id: gold_earned
+        type: s4
 enums:
   time_of_day:
     0: start_of_day
