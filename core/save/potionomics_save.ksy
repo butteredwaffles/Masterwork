@@ -1,6 +1,6 @@
 meta:
-  id: potionomics_save
-  title: Potionomics Save Data
+  id: potionomics_save_slot
+  title: Potionomics Save Slot Parser
   endian: le
 seq:
   - id: world
